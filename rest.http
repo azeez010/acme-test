@@ -1,0 +1,13 @@
+GET http://localhost:5052/api/login
+
+###
+POST http://localhost:5052/api/Customer/Create-Customer HTTP/1.1
+Content-Type: application/json
+
+{
+    "FirstName": "Happy",
+    "LastName": "Az",
+    "Email": "dat@g.com",
+    "Password": "S@saaaaa0",
+    "UserName": "AzH"
+}
